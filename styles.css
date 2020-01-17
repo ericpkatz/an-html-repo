@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1.title {
+  background-color: dodgerBlue;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.company {
+  border-radius: 1rem;
+  border: solid 1px dodgerBlue;
+  margin: 3rem 20%;
+  padding: 1rem;
+}
+
+.company h2 {
+  text-transform: uppercase;
+}
+
+.company h2 span {
+  color: gray;
+  font-size: 1rem;
+  text-transform: none;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  display: block;
+
+}
+
+.key-people {
+  list-style-type: none;
+  padding: 0;
+}
+
+.key-people li {
+  font-weight: bold;
+  border-radius: 1rem;
+  border: solid 1px tomato;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
